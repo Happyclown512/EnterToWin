@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDA30BD28D2440F006A6749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30BC28D2440F006A6749 /* AppDelegate.swift */; };
+		CEDA30BF28D2440F006A6749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30BE28D2440F006A6749 /* SceneDelegate.swift */; };
+		CEDA30C128D2440F006A6749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30C028D2440F006A6749 /* ViewController.swift */; };
+		CEDA30C428D2440F006A6749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA30C228D2440F006A6749 /* Main.storyboard */; };
+		CEDA30C628D24413006A6749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA30C528D24413006A6749 /* Assets.xcassets */; };
+		CEDA30C928D24413006A6749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA30C728D24413006A6749 /* LaunchScreen.storyboard */; };
+		CEDA30D428D24414006A6749 /* EnterToWinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30D328D24414006A6749 /* EnterToWinTests.swift */; };
+		CEDA30DE28D24414006A6749 /* EnterToWinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30DD28D24414006A6749 /* EnterToWinUITests.swift */; };
+		CEDA30E028D24414006A6749 /* EnterToWinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30DF28D24414006A6749 /* EnterToWinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDA30D028D24414006A6749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA30B128D2440F006A6749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA30B828D2440F006A6749;
+			remoteInfo = EnterToWin;
+		};
+		CEDA30DA28D24414006A6749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDA30B128D2440F006A6749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDA30B828D2440F006A6749;
+			remoteInfo = EnterToWin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDA30B928D2440F006A6749 /* EnterToWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnterToWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA30BC28D2440F006A6749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDA30BE28D2440F006A6749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEDA30C028D2440F006A6749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDA30C328D2440F006A6749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDA30C528D24413006A6749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDA30C828D24413006A6749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDA30CA28D24413006A6749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA30CF28D24414006A6749 /* EnterToWinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterToWinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA30D328D24414006A6749 /* EnterToWinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterToWinTests.swift; sourceTree = "<group>"; };
+		CEDA30D928D24414006A6749 /* EnterToWinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterToWinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDA30DD28D24414006A6749 /* EnterToWinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterToWinUITests.swift; sourceTree = "<group>"; };
+		CEDA30DF28D24414006A6749 /* EnterToWinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterToWinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDA30B628D2440F006A6749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA30CC28D24414006A6749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA30D628D24414006A6749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDA30B028D2440F006A6749 = {
+			isa = PBXGroup;
+			children = (
+				CEDA30BB28D2440F006A6749 /* EnterToWin */,
+				CEDA30D228D24414006A6749 /* EnterToWinTests */,
+				CEDA30DC28D24414006A6749 /* EnterToWinUITests */,
+				CEDA30BA28D2440F006A6749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDA30BA28D2440F006A6749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA30B928D2440F006A6749 /* EnterToWin.app */,
+				CEDA30CF28D24414006A6749 /* EnterToWinTests.xctest */,
+				CEDA30D928D24414006A6749 /* EnterToWinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDA30BB28D2440F006A6749 /* EnterToWin */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA30BC28D2440F006A6749 /* AppDelegate.swift */,
+				CEDA30BE28D2440F006A6749 /* SceneDelegate.swift */,
+				CEDA30C028D2440F006A6749 /* ViewController.swift */,
+				CEDA30C228D2440F006A6749 /* Main.storyboard */,
+				CEDA30C528D24413006A6749 /* Assets.xcassets */,
+				CEDA30C728D24413006A6749 /* LaunchScreen.storyboard */,
+				CEDA30CA28D24413006A6749 /* Info.plist */,
+			);
+			path = EnterToWin;
+			sourceTree = "<group>";
+		};
+		CEDA30D228D24414006A6749 /* EnterToWinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA30D328D24414006A6749 /* EnterToWinTests.swift */,
+			);
+			path = EnterToWinTests;
+			sourceTree = "<group>";
+		};
+		CEDA30DC28D24414006A6749 /* EnterToWinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA30DD28D24414006A6749 /* EnterToWinUITests.swift */,
+				CEDA30DF28D24414006A6749 /* EnterToWinUITestsLaunchTests.swift */,
+			);
+			path = EnterToWinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDA30B828D2440F006A6749 /* EnterToWin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA30E328D24414006A6749 /* Build configuration list for PBXNativeTarget "EnterToWin" */;
+			buildPhases = (
+				CEDA30B528D2440F006A6749 /* Sources */,
+				CEDA30B628D2440F006A6749 /* Frameworks */,
+				CEDA30B728D2440F006A6749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnterToWin;
+			productName = EnterToWin;
+			productReference = CEDA30B928D2440F006A6749 /* EnterToWin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDA30CE28D24414006A6749 /* EnterToWinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA30E628D24414006A6749 /* Build configuration list for PBXNativeTarget "EnterToWinTests" */;
+			buildPhases = (
+				CEDA30CB28D24414006A6749 /* Sources */,
+				CEDA30CC28D24414006A6749 /* Frameworks */,
+				CEDA30CD28D24414006A6749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA30D128D24414006A6749 /* PBXTargetDependency */,
+			);
+			name = EnterToWinTests;
+			productName = EnterToWinTests;
+			productReference = CEDA30CF28D24414006A6749 /* EnterToWinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDA30D828D24414006A6749 /* EnterToWinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDA30E928D24414006A6749 /* Build configuration list for PBXNativeTarget "EnterToWinUITests" */;
+			buildPhases = (
+				CEDA30D528D24414006A6749 /* Sources */,
+				CEDA30D628D24414006A6749 /* Frameworks */,
+				CEDA30D728D24414006A6749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDA30DB28D24414006A6749 /* PBXTargetDependency */,
+			);
+			name = EnterToWinUITests;
+			productName = EnterToWinUITests;
+			productReference = CEDA30D928D24414006A6749 /* EnterToWinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDA30B128D2440F006A6749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CEDA30B828D2440F006A6749 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CEDA30CE28D24414006A6749 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CEDA30B828D2440F006A6749;
+					};
+					CEDA30D828D24414006A6749 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CEDA30B828D2440F006A6749;
+					};
+				};
+			};
+			buildConfigurationList = CEDA30B428D2440F006A6749 /* Build configuration list for PBXProject "EnterToWin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDA30B028D2440F006A6749;
+			productRefGroup = CEDA30BA28D2440F006A6749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDA30B828D2440F006A6749 /* EnterToWin */,
+				CEDA30CE28D24414006A6749 /* EnterToWinTests */,
+				CEDA30D828D24414006A6749 /* EnterToWinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDA30B728D2440F006A6749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA30C928D24413006A6749 /* LaunchScreen.storyboard in Resources */,
+				CEDA30C628D24413006A6749 /* Assets.xcassets in Resources */,
+				CEDA30C428D2440F006A6749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA30CD28D24414006A6749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA30D728D24414006A6749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDA30B528D2440F006A6749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA30C128D2440F006A6749 /* ViewController.swift in Sources */,
+				CEDA30BD28D2440F006A6749 /* AppDelegate.swift in Sources */,
+				CEDA30BF28D2440F006A6749 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA30CB28D24414006A6749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA30D428D24414006A6749 /* EnterToWinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDA30D528D24414006A6749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDA30DE28D24414006A6749 /* EnterToWinUITests.swift in Sources */,
+				CEDA30E028D24414006A6749 /* EnterToWinUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDA30D128D24414006A6749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA30B828D2440F006A6749 /* EnterToWin */;
+			targetProxy = CEDA30D028D24414006A6749 /* PBXContainerItemProxy */;
+		};
+		CEDA30DB28D24414006A6749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDA30B828D2440F006A6749 /* EnterToWin */;
+			targetProxy = CEDA30DA28D24414006A6749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDA30C228D2440F006A6749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA30C328D2440F006A6749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDA30C728D24413006A6749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDA30C828D24413006A6749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDA30E128D24414006A6749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDA30E228D24414006A6749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDA30E428D24414006A6749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnterToWin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idiots.EnterToWin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDA30E528D24414006A6749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnterToWin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idiots.EnterToWin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDA30E728D24414006A6749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idiots.EnterToWinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnterToWin.app/EnterToWin";
+			};
+			name = Debug;
+		};
+		CEDA30E828D24414006A6749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idiots.EnterToWinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnterToWin.app/EnterToWin";
+			};
+			name = Release;
+		};
+		CEDA30EA28D24414006A6749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idiots.EnterToWinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnterToWin;
+			};
+			name = Debug;
+		};
+		CEDA30EB28D24414006A6749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idiots.EnterToWinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnterToWin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDA30B428D2440F006A6749 /* Build configuration list for PBXProject "EnterToWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA30E128D24414006A6749 /* Debug */,
+				CEDA30E228D24414006A6749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA30E328D24414006A6749 /* Build configuration list for PBXNativeTarget "EnterToWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA30E428D24414006A6749 /* Debug */,
+				CEDA30E528D24414006A6749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA30E628D24414006A6749 /* Build configuration list for PBXNativeTarget "EnterToWinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA30E728D24414006A6749 /* Debug */,
+				CEDA30E828D24414006A6749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDA30E928D24414006A6749 /* Build configuration list for PBXNativeTarget "EnterToWinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDA30EA28D24414006A6749 /* Debug */,
+				CEDA30EB28D24414006A6749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDA30B128D2440F006A6749 /* Project object */;
+}
