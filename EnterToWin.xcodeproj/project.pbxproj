@@ -16,6 +16,7 @@
 		CEDA30D428D24414006A6749 /* EnterToWinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30D328D24414006A6749 /* EnterToWinTests.swift */; };
 		CEDA30DE28D24414006A6749 /* EnterToWinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30DD28D24414006A6749 /* EnterToWinUITests.swift */; };
 		CEDA30E028D24414006A6749 /* EnterToWinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA30DF28D24414006A6749 /* EnterToWinUITestsLaunchTests.swift */; };
+		CEDA312928D25335006A6749 /* CongratulationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA312828D25335006A6749 /* CongratulationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEDA30D928D24414006A6749 /* EnterToWinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnterToWinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDA30DD28D24414006A6749 /* EnterToWinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterToWinUITests.swift; sourceTree = "<group>"; };
 		CEDA30DF28D24414006A6749 /* EnterToWinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterToWinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEDA312828D25335006A6749 /* CongratulationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CEDA30C528D24413006A6749 /* Assets.xcassets */,
 				CEDA30C728D24413006A6749 /* LaunchScreen.storyboard */,
 				CEDA30CA28D24413006A6749 /* Info.plist */,
+				CEDA312828D25335006A6749 /* CongratulationsViewController.swift */,
 			);
 			path = EnterToWin;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				CEDA30C128D2440F006A6749 /* ViewController.swift in Sources */,
 				CEDA30BD28D2440F006A6749 /* AppDelegate.swift in Sources */,
+				CEDA312928D25335006A6749 /* CongratulationsViewController.swift in Sources */,
 				CEDA30BF28D2440F006A6749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
